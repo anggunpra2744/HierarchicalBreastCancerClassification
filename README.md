@@ -14,21 +14,21 @@ The dataset used for classification comprised of two public datasets (BACH and B
 
 This repository consists of these files:
 
-*Libraries Used:*
+*Libraries Used*<br>
 -> requirements.txt
 
-*Merging and Naming of Classification Dataset*
+*Merging and Naming of Classification Dataset*<br>
 -> mergedata.ipynb
 
-*Data Preprocessing*
+*Data Preprocessing*<br>
 -> new_data-preprocessing_alldata.ipynb
 
-*Segmentation Model (U-Net with DenseNet121 backbone)*
+*Segmentation Model (U-Net with DenseNet121 backbone)*<br>
 -> 16ags-norm_newmodel_denseunet.ipynb
 
-*Hierarchical Classification Model 1 - Dual Model*
+*Hierarchical Classification Model 1 - Dual Model*<br>
 -> newdual-finetuned_densenet121-model-alldata.ipynb
 
-*Hierarchical Classification Model 2 - Single Model*
--> hc-densenet121-model-alldata-ep20.ipynb (20 epoch)
+*Hierarchical Classification Model 2 - Single Model*<br>
+-> hc-densenet121-model-alldata-ep20.ipynb (20 epoch)<br>
 -> hc-densenet121-model-alldata-ep50.ipynb (50 epoch)
